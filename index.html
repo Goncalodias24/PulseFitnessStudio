@@ -1,11 +1,359 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Pulse Athletics & Fitness Studio - Class schedule, trainers, and membership plans.">
+  <title>Pulse Athletics | Fitness & Performance Studio</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+
+  <!-- Main Navigation -->
+  <header class="site-header">
+    <div class="header-container">
+      <a href="#hero" class="logo">
+        <span class="logo-pulse">PULSE</span><span class="logo-dot">.</span>FIT
+      </a>
+      
+      <nav class="main-nav" aria-label="Main Navigation">
+        <ul class="nav-links">
+          <li><a href="#schedule" class="nav-item">Schedule</a></li>
+          <li><a href="#trainers" class="nav-item">Trainers</a></li>
+          <li><a href="#pricing" class="nav-item">Plans</a></li>
+          <li><a href="#pricing" class="btn btn-header">Join Now</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+      <div class="hero-overlay"></div>
+      <div class="hero-container">
+        <div class="hero-badge">HIGH PERFORMANCE STUDIO</div>
+        <h1 class="hero-title">MIND & BODY IN SYNC</h1>
+        <p class="hero-description">
+          High-intensity workouts, functional strength, and dedicated recovery with expert coaching to help you reach your peak version.
+        </p>
+        <div class="hero-actions">
+          <a href="#pricing" class="btn btn-primary">Explore Memberships</a>
+          <a href="#schedule" class="btn btn-secondary">View Class Schedule</a>
+        </div>
+        
+        <div class="hero-stats-bar">
+          <div class="stat-item">
+            <span class="stat-num">40+</span>
+            <span class="stat-desc">Classes per Week</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-num">12</span>
+            <span class="stat-desc">Elite Coaches</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-num">100%</span>
+            <span class="stat-desc">Result Focused</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Class Schedule Section (CSS Grid) -->
+    <section id="schedule" class="section-padding">
+      <div class="container">
+        <div class="section-title-wrap">
+          <h2 class="section-title">CLASS SCHEDULE</h2>
+          <p class="section-subtitle">Plan your workouts for the week</p>
+        </div>
+
+        <div class="schedule-grid">
+          <!-- Header Row -->
+          <div class="grid-cell cell-header">Time</div>
+          <div class="grid-cell cell-header">Monday</div>
+          <div class="grid-cell cell-header">Tuesday</div>
+          <div class="grid-cell cell-header">Wednesday</div>
+          <div class="grid-cell cell-header">Thursday</div>
+          <div class="grid-cell cell-header">Friday</div>
+          <div class="grid-cell cell-header">Saturday</div>
+
+          <!-- 07:00 Slot -->
+          <div class="grid-cell cell-time">07:00</div>
+          <div class="grid-cell class-card card-hiit">
+            <span class="class-name">HIIT Core</span>
+            <span class="class-coach">Pedro Silva</span>
+          </div>
+          <div class="grid-cell class-card card-strength">
+            <span class="class-name">Cross Training</span>
+            <span class="class-coach">Ana Rita</span>
+          </div>
+          <div class="grid-cell class-card card-hiit">
+            <span class="class-name">HIIT Core</span>
+            <span class="class-coach">Pedro Silva</span>
+          </div>
+          <div class="grid-cell class-card card-strength">
+            <span class="class-name">Cross Training</span>
+            <span class="class-coach">Ana Rita</span>
+          </div>
+          <div class="grid-cell class-card card-hiit">
+            <span class="class-name">HIIT Core</span>
+            <span class="class-coach">Pedro Silva</span>
+          </div>
+          <div class="grid-cell class-card card-cardio">
+            <span class="class-name">Run Club</span>
+            <span class="class-coach">Sérgio M.</span>
+          </div>
+
+          <!-- 12:30 Slot -->
+          <div class="grid-cell cell-time">12:30</div>
+          <div class="grid-cell class-card card-yoga">
+            <span class="class-name">Power Yoga</span>
+            <span class="class-coach">Marta Costa</span>
+          </div>
+          <div class="grid-cell class-card card-hiit">
+            <span class="class-name">Tabata Express</span>
+            <span class="class-coach">Pedro Silva</span>
+          </div>
+          <div class="grid-cell class-card card-yoga">
+            <span class="class-name">Power Yoga</span>
+            <span class="class-coach">Marta Costa</span>
+          </div>
+          <div class="grid-cell class-card card-hiit">
+            <span class="class-name">Tabata Express</span>
+            <span class="class-coach">Pedro Silva</span>
+          </div>
+          <div class="grid-cell class-card card-yoga">
+            <span class="class-name">Pilates Stretch</span>
+            <span class="class-coach">Marta Costa</span>
+          </div>
+          <div class="grid-cell class-card card-strength">
+            <span class="class-name">Heavy Lifting</span>
+            <span class="class-coach">Ana Rita</span>
+          </div>
+
+          <!-- 18:30 Slot -->
+          <div class="grid-cell cell-time">18:30</div>
+          <div class="grid-cell class-card card-strength">
+            <span class="class-name">Strength & Power</span>
+            <span class="class-coach">Ana Rita</span>
+          </div>
+          <div class="grid-cell class-card card-cardio">
+            <span class="class-name">Spinning Zone</span>
+            <span class="class-coach">Sérgio M.</span>
+          </div>
+          <div class="grid-cell class-card card-strength">
+            <span class="class-name">Strength & Power</span>
+            <span class="class-coach">Ana Rita</span>
+          </div>
+          <div class="grid-cell class-card card-cardio">
+            <span class="class-name">Spinning Zone</span>
+            <span class="class-coach">Sérgio M.</span>
+          </div>
+          <div class="grid-cell class-card card-hiit">
+            <span class="class-name">Pulse Challenge</span>
+            <span class="class-coach">Pedro Silva</span>
+          </div>
+          <div class="grid-cell class-card card-yoga">
+            <span class="class-name">Yin Yoga</span>
+            <span class="class-coach">Marta Costa</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Trainers Section (CSS Grid Cards) -->
+    <section id="trainers" class="section-padding section-alt">
+      <div class="container">
+        <div class="section-title-wrap">
+          <h2 class="section-title">COACHING TEAM</h2>
+          <p class="section-subtitle">Certified professionals ready to elevate your training</p>
+        </div>
+
+        <div class="trainers-grid">
+          <!-- Coach 1 -->
+          <article class="trainer-card">
+            <div class="trainer-avatar-box">
+              <img src="https://images.unsplash.com/photo-1567013127542-490d757e51fc?auto=format&fit=crop&w=600&q=80" alt="Pedro Silva - Head of Conditioning" class="trainer-img">
+            </div>
+            <div class="trainer-body">
+              <h3 class="trainer-name">Pedro Silva</h3>
+              <span class="trainer-role">Head of Conditioning & HIIT</span>
+              <p class="trainer-bio">Specialist in metabolic conditioning and cardiovascular performance optimization with 8 years of experience.</p>
+              <div class="trainer-skills">
+                <span class="skill-pill">HIIT</span>
+                <span class="skill-pill">Conditioning</span>
+                <span class="skill-pill">Functional</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Coach 2 -->
+          <article class="trainer-card">
+            <div class="trainer-avatar-box">
+              <img src="https://images.unsplash.com/photo-1548690312-e3b507d8c110?auto=format&fit=crop&w=600&q=80" alt="Ana Rita - Strength & Powerlifting" class="trainer-img">
+            </div>
+            <div class="trainer-body">
+              <h3 class="trainer-name">Ana Rita</h3>
+              <span class="trainer-role">Strength & Powerlifting Specialist</span>
+              <p class="trainer-bio">Focused on biomechanics, hypertrophy, and safe overload progression for all athletic levels.</p>
+              <div class="trainer-skills">
+                <span class="skill-pill">Strength</span>
+                <span class="skill-pill">Powerlifting</span>
+                <span class="skill-pill">Barbell</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Coach 3 -->
+          <article class="trainer-card">
+            <div class="trainer-avatar-box">
+              <img src="https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&w=600&q=80" alt="Marta Costa - Yoga & Mobility" class="trainer-img">
+            </div>
+            <div class="trainer-body">
+              <h3 class="trainer-name">Marta Costa</h3>
+              <span class="trainer-role">Yoga & Mobility Instructor</span>
+              <p class="trainer-bio">Dedicated to injury prevention, expanding range of motion, and physical and mental recovery.</p>
+              <div class="trainer-skills">
+                <span class="skill-pill">Yoga</span>
+                <span class="skill-pill">Mobility</span>
+                <span class="skill-pill">Recovery</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Coach 4 -->
+          <article class="trainer-card">
+            <div class="trainer-avatar-box">
+              <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=600&q=80" alt="Sérgio M. - Endurance & Cycling" class="trainer-img">
+            </div>
+            <div class="trainer-body">
+              <h3 class="trainer-name">Sérgio M.</h3>
+              <span class="trainer-role">Endurance & Cycling Coach</span>
+              <p class="trainer-bio">Endurance sports enthusiast specializing in metabolic pacing and high-energy sessions.</p>
+              <div class="trainer-skills">
+                <span class="skill-pill">Spinning</span>
+                <span class="skill-pill">Cardio</span>
+                <span class="skill-pill">Endurance</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Membership Plans Section (Flexbox Layout) -->
+    <section id="pricing" class="section-padding">
+      <div class="container">
+        <div class="section-title-wrap">
+          <h2 class="section-title">PLANS & MEMBERSHIPS</h2>
+          <p class="section-subtitle">Flexible access with no long-term contracts</p>
+        </div>
+
+        <div class="pricing-flex">
+          <!-- Basic Plan -->
+          <div class="pricing-card">
+            <div class="pricing-header">
+              <h3>Basic Access</h3>
+              <p class="pricing-desc">Full access to gym floor and cardio area.</p>
+            </div>
+            <div class="pricing-cost">
+              <span class="currency">€</span>
+              <span class="price">39</span>
+              <span class="period">/mo</span>
+            </div>
+            <ul class="pricing-features">
+              <li>Unlimited gym floor access</li>
+              <li>Locker room & sauna access</li>
+              <li>Pulse app with workout plans</li>
+              <li class="disabled">Group classes included</li>
+              <li class="disabled">Monthly fitness assessment</li>
+            </ul>
+            <a href="#" class="btn btn-outline">Select Plan</a>
+          </div>
+
+          <!-- Featured Plan -->
+          <div class="pricing-card card-featured">
+            <div class="popular-badge">MOST POPULAR</div>
+            <div class="pricing-header">
+              <h3>Pulse Unlimited</h3>
+              <p class="pricing-desc">For those who want unlimited group fitness and training.</p>
+            </div>
+            <div class="pricing-cost">
+              <span class="currency">€</span>
+              <span class="price">79</span>
+              <span class="period">/mo</span>
+            </div>
+            <ul class="pricing-features">
+              <li>Unlimited gym floor access</li>
+              <li>Unlimited group classes</li>
+              <li>Locker room & sauna access</li>
+              <li>1 Monthly fitness assessment</li>
+              <li>10% off studio retail store</li>
+            </ul>
+            <a href="#" class="btn btn-primary">Claim Spot</a>
+          </div>
+
+          <!-- VIP Plan -->
+          <div class="pricing-card">
+            <div class="pricing-header">
+              <h3>VIP Performance</h3>
+              <p class="pricing-desc">Exclusive 1-on-1 coaching and personalized support.</p>
+            </div>
+            <div class="pricing-cost">
+              <span class="currency">€</span>
+              <span class="price">139</span>
+              <span class="period">/mo</span>
+            </div>
+            <ul class="pricing-features">
+              <li>Everything in Unlimited plan</li>
+              <li>2 Personal Training sessions / month</li>
+              <li>Customized nutrition plan</li>
+              <li>Priority event access</li>
+              <li>2 Guest passes / month</li>
+            </ul>
+            <a href="#" class="btn btn-outline">Select VIP</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-col brand-col">
+        <div class="logo">
+          <span class="logo-pulse">PULSE</span><span class="logo-dot">.</span>FIT
+        </div>
+        <p>Your high-performance studio and training community.</p>
+        <div class="footer-location">
+          <p>📍 250 Liberty Ave, Lisbon</p>
+          <p>📞 (+351) 210 999 888</p>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#schedule">Schedule</a></li>
+          <li><a href="#trainers">Trainers</a></li>
+          <li><a href="#pricing">Plans</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Programs</h4>
+        <ul>
+          <li><a href="#schedule">HIIT Core</a></li>
+          <li><a href="#schedule">Power Yoga</a></li>
+          <li><a href="#schedule">Cross Training</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Pulse Athletics & Fitness Studio. All rights reserved.</p>
+    </div>
+  </footer>
+
 </body>
 </html>
