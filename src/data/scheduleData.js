@@ -91,7 +91,7 @@ export const trainerData = [
     role: "Head of Conditioning & HIIT",
     bio: "Specialist in metabolic conditioning and cardiovascular performance optimization with 8 years of experience.",
     skills: ["HIIT", "Conditioning", "Functional"],
-    image: "/images/trainers/coach-pedro.jpg"
+    image: "/images/trainers/HIIT.jpg"
   },
   {
     id: "ar",
@@ -99,7 +99,7 @@ export const trainerData = [
     role: "Strength & Powerlifting Specialist",
     bio: "Focused on biomechanics, hypertrophy, and safe overload progression for all athletic levels.",
     skills: ["Strength", "Powerlifting", "Barbell"],
-    image: "/images/trainers/coach-ana.jpg"
+    image: "/images/trainers/strength.jpg"
   },
   {
     id: "mc",
@@ -107,7 +107,7 @@ export const trainerData = [
     role: "Yoga & Mobility Instructor",
     bio: "Dedicated to injury prevention, expanding range of motion, and physical and mental recovery.",
     skills: ["Yoga", "Mobility", "Recovery"],
-    image: "/images/trainers/coach-marta.jpg"
+    image: "/images/trainers/yoga.jpg"
   },
   {
     id: "sm",
@@ -115,6 +115,6 @@ export const trainerData = [
     role: "Endurance & Cycling Coach",
     bio: "Endurance sports enthusiast specializing in metabolic pacing and high-energy sessions.",
     skills: ["Spinning", "Cardio", "Endurance"],
-    image: "/images/trainers/coach-sergio.jpg"
+    image: "/images/trainers/cycling.jpg"
   }
 ];
