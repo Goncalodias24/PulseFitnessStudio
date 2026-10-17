@@ -1,10 +1,12 @@
-import { useState } from 'react'
+import React from 'react';
+import ScheduleSection from './components/ScheduleSection';
 
-
-function App() {
-  const [count, setCount] = useState(0)
-
-  return ()
+export default function App() {
+  return (
+    <div className="min-h-screen bg-brand-dark text-white">
+      <main>
+        <ScheduleSection />
+      </main>
+    </div>
+  );
 }
-
-export default App
